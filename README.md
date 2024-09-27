@@ -26,9 +26,7 @@ Description: Manage user registrations, authentication, and profiles.
 - Admins can manage products and orders, while Customers can browse and make purchases.
 ##### User Profile Management:
 - Allow users to view and update their profile information.
-### Non-Functional Requirements:
-- Secure password storage with encryption (e.g., hashing using BCrypt).
-- Session management and token expiry.
+
 ## 3. Shopping Cart Service
 Description: Manage users' shopping carts, allowing them to add and remove items.
 ### Functional Requirements:
@@ -62,7 +60,6 @@ Description: Manage payment processing through integration with external payment
 #### Refund Handling:
 - Allow refunds for cancelled or returned orders.
 ### Non-Functional Requirements:
-- Secure payment information using encryption and ensure PCI DSS compliance.
 - Handle payment retries in case of gateway failure.
 ## 6. Inventory Service
 Description: Manage and track inventory levels for products across different warehouses.
@@ -94,8 +91,6 @@ Description: Notify users via email or SMS about important updates (e.g., order 
 - Option to send SMS notifications for time-sensitive updates (e.g., delivery windows).
 #### User Preferences:
 - Allow users to opt-in or out of notifications.
-### Non-Functional Requirements:
-- Use a reliable third-party service (e.g., SendGrid, Twilio) for email/SMS delivery.
 ## 9. Review and Ratings Service
 Description: Allow users to leave product reviews and rate their purchases.
 ### Functional Requirements:
@@ -110,7 +105,7 @@ Description: Allow users to leave product reviews and rate their purchases.
 #### 10.  Analytics and Reporting Service
 Description: Provide business intelligence through analytics on sales, user behavior, and inventory trends.
 ## Functional Requirements:
-#### Sales Reports:
+#### Sales Reports(optional):
 - Generate reports showing revenue, best-selling products, and sales trends.
 #### Inventory Reports:
 - Provide insights into stock levels and product performance.
